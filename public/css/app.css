@@ -10046,9 +10046,32 @@ h3 {
  margin: 0 auto;
  width: 400px;
 }
+
 .footerContact {
   margin: 0 auto;
 }
+
 .footerSocials {
   margin: 0 auto;
+}
+
+.homepageButton {
+  display :inline-block;
+  padding:5px 10px;
+  border:0.2em solid #b3b7bb;
+  margin:0 0.5em 0.5em 0;
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:black;
+  text-align:center;
+  transition: all 0.2s;
+}
+
+.homepageButton:hover {
+  color: black;
+  background-color:#FFFFFF;
+  text-decoration: none;
 }

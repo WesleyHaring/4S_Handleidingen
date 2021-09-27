@@ -43,7 +43,7 @@
                             ?>
 
                             <li>
-                                <a href="/{{ $brand->id }}/{{ $brand->name_url_encoded }}/">{{ $brand->name }}</a>
+                                <a class="homepageButton" href="/{{ $brand->id }}/{{ $brand->name_url_encoded }}/">{{ $brand->name }}</a>
                             </li>
                         @endforeach
                     </ul>
