@@ -12,12 +12,14 @@
 
     <div class="container">
 		<ul>
-		@foreach($types as $type)
-			<li>
-				<a href="/{{ $brand->id }}/{{ $brand->name_url_encoded }}/{{ $type->id }}/{{ $type->name_url_encoded }}/">{{ $type->name }}</a>
-			</li>
-		@endforeach
-		</ul>
+			<div class="dataHandleidingen">
+				@foreach($types as $type)
+					<li>
+						<a href="/{{ $brand->id }}/{{ $brand->name_url_encoded }}/{{ $type->id }}/{{ $type->name_url_encoded }}/">{{ $type->name }}</a>
+					</li>
+				@endforeach
+			</div>
+		</ul>	
 	</div>
 
 @stop
