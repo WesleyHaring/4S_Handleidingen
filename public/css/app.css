@@ -3979,10 +3979,9 @@ input[type=button].btn-block {
   padding-top: 0.32rem;
   padding-bottom: 0.32rem;
   margin-right: 1rem;
-  font-size: 2rem;
+  font-size: 1.125rem;
   line-height: inherit;
   white-space: nowrap;
-  font-weight: bold;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
@@ -4813,6 +4812,8 @@ a.badge-dark:focus, a.badge-dark.focus {
   margin-bottom: 2rem;
   background-color: #e9ecef;
   border-radius: 0.3rem;
+  font-size: medium;
+  font-weight: bold;
 }
 @media (min-width: 576px) {
   .jumbotron {
