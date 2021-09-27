@@ -1074,6 +1074,7 @@ pre code {
   .col-md-4 {
     flex: 0 0 33.3333333333%;
     max-width: 33.3333333333%;
+    background-color: #efefef;
   }
 
   .col-md-5 {
@@ -3978,9 +3979,10 @@ input[type=button].btn-block {
   padding-top: 0.32rem;
   padding-bottom: 0.32rem;
   margin-right: 1rem;
-  font-size: 1.125rem;
+  font-size: 2rem;
   line-height: inherit;
   white-space: nowrap;
+  font-weight: bold;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
