@@ -10040,3 +10040,14 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
+.footerOverOns {
+ margin: 0 auto;
+ width: 400px;
+}
+.footerContact {
+  margin: 0 auto;
+}
+.footerSocials {
+  margin: 0 auto;
+}
