@@ -17,7 +17,10 @@
 
 
 	@foreach ($manuals as $manual)
-	
+		@php
+            $manual->counter += 1;
+            $manual->save();
+        @endphp
 		@if ($manual->locally_available)
 			<a href="/{{ $brand->id }}/{{ $brand->name_url_encoded }}/{{ $type->id }}/{{ $type->name_url_encoded }}/{{ $manual->id }}/" alt="{{ __('misc.view_manual_alt') }}" title="{{ __('misc.view_manual_alt') }}">{{ __('misc.view_manual') }}</a> 
 			({{$manual->filesize_human_readable}})

@@ -20,6 +20,7 @@ class CreateManualsTable extends Migration
             $table->string('filename');
             $table->string('downloadedServer');
             $table->timestamps();
+            $table->integer('counter')->nullable();
         });
     }
 

@@ -20,5 +20,7 @@ class ManualController extends Controller
             "type" => $type,
             "brand" => $brand,
         ]);
+
+        print_r($manual);
     }
 }
