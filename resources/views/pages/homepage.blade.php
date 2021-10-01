@@ -7,13 +7,18 @@
 @endsection
 
 @section('content')
+    <div class="containerFavoriteBrands">
+        <H1> 10 meest bekeken handleidingen.</H1>
+        <div class="favoriteBrands">
+            <p> Brand : Type</p>
+        </div>
+    </div>
 
     <h1>
         @section('title')
             {{ __('misc.all_brands') }}
         @show
     </h1>
-
 
     <?php
     $size = count($brands);

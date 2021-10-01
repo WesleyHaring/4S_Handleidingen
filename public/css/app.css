@@ -10075,3 +10075,11 @@ h3 {
   background-color:#FFFFFF;
   text-decoration: none;
 }
+
+.favoriteBrands{
+  background-color: #efefef;
+}
+
+li{
+  list-style: none;
+}
